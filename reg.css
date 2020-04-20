@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
@@ -13,6 +14,10 @@ body {
     background-image: linear-gradient(15deg, rgba(32, 2, 133, 0.2), rgba(241, 62, 151, 0.2)),
         linear-gradient(90deg, rgb(246, 112, 73) 0%, rgb(230, 71, 141) 11%, rgb(206, 9, 242) 48%, rgb(254, 132, 39) 50%, rgb(238, 91, 107) 61%, rgb(214, 30, 208) 88%, rgb(222, 50, 174) 100%);
     letter-spacing: .1rem;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
 }
 
 
@@ -23,7 +28,7 @@ body {
 }
 
 #registration {
-    width: fit-content;
+    width: auto;
     margin: 2rem auto;
     padding: 2rem 2rem;
     display: flex;
@@ -31,13 +36,12 @@ body {
     justify-content: center;
     background-image: radial-gradient(circle at center center, rgba(217, 217, 217, 0.05) 0%, rgba(217, 217, 217, 0.05) 15%, rgba(197, 197, 197, 0.05) 15%, rgba(197, 197, 197, 0.05) 34%, rgba(178, 178, 178, 0.05) 34%, rgba(178, 178, 178, 0.05) 51%, rgba(237, 237, 237, 0.05) 51%, rgba(237, 237, 237, 0.05) 75%, rgba(138, 138, 138, 0.05) 75%, rgba(138, 138, 138, 0.05) 89%, rgba(158, 158, 158, 0.05) 89%, rgba(158, 158, 158, 0.05) 100%),
         radial-gradient(circle at center center, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 100%);
-    background-size: 42px 42px;
+    background-size: 2.625rem 2.625rem;
     border-radius: 2rem;
 }
 
 #registration .form-group {
     margin-bottom: 0.2rem;
-
 }
 
 #a {
