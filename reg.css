@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    background-image: linear-gradient(15deg, rgba(32, 2, 133, 0.2), rgba(241, 62, 151, 0.2)),
+        linear-gradient(90deg, rgb(246, 112, 73) 0%, rgb(230, 71, 141) 11%, rgb(206, 9, 242) 48%, rgb(254, 132, 39) 50%, rgb(238, 91, 107) 61%, rgb(214, 30, 208) 88%, rgb(222, 50, 174) 100%);
+    letter-spacing: .1rem;
+}
+
+
+.l-heading {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+#registration {
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle at center center, rgba(217, 217, 217, 0.05) 0%, rgba(217, 217, 217, 0.05) 15%, rgba(197, 197, 197, 0.05) 15%, rgba(197, 197, 197, 0.05) 34%, rgba(178, 178, 178, 0.05) 34%, rgba(178, 178, 178, 0.05) 51%, rgba(237, 237, 237, 0.05) 51%, rgba(237, 237, 237, 0.05) 75%, rgba(138, 138, 138, 0.05) 75%, rgba(138, 138, 138, 0.05) 89%, rgba(158, 158, 158, 0.05) 89%, rgba(158, 158, 158, 0.05) 100%),
+        radial-gradient(circle at center center, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 100%);
+    background-size: 42px 42px;
+    border-radius: 2rem;
+}
+
+#registration .form-group {
+    margin-bottom: 0.2rem;
+
+}
+
+#a {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.inputbox {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    display: inline-block;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.9rem;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 1.2rem;
+    margin: 0.8rem 0;
+    border: none;
+    border-radius: 0.9rem;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 100%;
+    background-color: rgb(243, 154, 11);
+    color: white;
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 0.9rem;
+    cursor: pointer;
+}

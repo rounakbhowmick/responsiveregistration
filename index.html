@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reg.css">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <section id="registration" class="py-3">
+
+        <div class="container">
+            <h1 class="l-heading">Registration Page</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="inputbox" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="inputbox" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender</label>
+                    <select name="gender" class="inputbox" id="gender">
+                        <option value="q1">Male</option>
+                        <option value="q2">Female</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label><br>
+                    <textarea name="address" class="inputbox" id="address"
+                        placeholder="Enter your full address"></textarea>
+                </div>
+                <div class="form-group">
+                    <label class="birthday" for="birthday">Birthday</label>
+                    <input type="date" class="inputbox" id="birthday">
+                </div>
+                <div class="form-group">
+                    <label for="graduation">Education Qualification</label>
+                    <select name="graduation" class="inputbox" id="graduation">
+                        <option selected disabled>Select</option>
+                        <option value="q1">Btech</option>
+                        <option value="q2">BCA</option>
+                        <option value="q3">BA</option>
+                        <option value="q4">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label id="a" for="technology">Technology Known</label>
+                    <input type="checkbox" id="tech1" value="C">
+                    <label for="tech1">C</label>
+                    <input type="checkbox" id="tech2" value="C++">
+                    <label for="tech2">C++</label>
+                    <input type="checkbox" id="tech3" value="Java">
+                    <label for="tech3">Java</label>
+                    <input type="checkbox" id="tech4" value="Javascript">
+                    <label for="tech4">Javascript</label>
+                    <input type="checkbox" id="tech5" value="Python">
+                    <label for="tech5">Python</label>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </div>
+            </form>
+
+        </div>
+
+    </section>
+</body>
+
+</html>
