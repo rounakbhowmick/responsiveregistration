@@ -83,7 +83,7 @@ body {
     border-radius: 0.9rem;
 }
 
-.activesubmit {
+/*.activesubmit {
     width: 100%;
     background-color: #4CAF50;
     color: white;
@@ -93,7 +93,7 @@ body {
     border: none;
     border-radius: 0.9rem;
     cursor: pointer;
-}
+}*/
 
 input[type=submit] {
     width: 100%;

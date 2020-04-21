@@ -32,7 +32,7 @@ form.addEventListener('submit', e => {
 form.name.addEventListener('keyup', e => {
 
     if (namePattern.test(e.target.value)) {
-        c++;
+
         form.name.setAttribute('class', 'success');
 
     } else {
@@ -44,7 +44,7 @@ form.name.addEventListener('keyup', e => {
 form.email.addEventListener('keyup', e => {
 
     if (emailPattern.test(e.target.value)) {
-        c++;
+
         form.email.setAttribute('class', 'success');
     } else {
         form.email.setAttribute('class', 'error');
@@ -66,10 +66,7 @@ form.address.addEventListener('keyup', e => {
     }
 });
 
-form.birthday.addEventListener('input', e => {
-    console.log(e.target.value);
 
-});
 
 /*
 function myFunction() {
