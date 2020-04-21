@@ -13,19 +13,19 @@
 
         <div class="container">
             <h1 class="l-heading">Registration Info</h1>
-            <form class="signup-form">
+            <form name="signup-form" class="signup-form" onsubmit="return validation()">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="inputbox" id="name" placeholder="Enter your name" required>
+                    <input type="text" class="inputbox" name="name" id="name" placeholder="Enter your name">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="inputbox" id="email" placeholder="Enter your email" required>
+                    <input type="email" class="inputbox" id="email" placeholder="Enter your email">
                 </div>
                 <div class="form-group">
                     <label for="gender">Gender</label>
-                    <select name="gender" class="inputbox" id="gender" required>
-                        <option selected disabled>Select</option>
+                    <select name="gender" class="inputbox" id="gender">
+                        <option selected disabled value="select">Select</option>
                         <option value="q1">Male</option>
                         <option value="q2">Female</option>
                     </select>
