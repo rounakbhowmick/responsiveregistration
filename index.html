@@ -16,33 +16,33 @@
             <form name="signup-form" class="signup-form" onsubmit="return validation()">
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input type="text" class="inputbox" name="name" id="name" placeholder="Enter your name">
+                    <input type="text" class="inputbox  " name="name" id="name" placeholder="Enter your name">
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="inputbox" id="email" placeholder="Enter your email">
+                    <input type="email" class="inputbox  " id="email" placeholder="Enter your email">
                 </div>
                 <div class="form-group">
                     <label for="gender">Gender</label>
-                    <select name="gender" class="inputbox" id="gender">
-                        <option selected disabled value="select">Select</option>
+                    <select name="gender" class="inputbox " id="gender">
+                        <option selected disabled value="">Select</option>
                         <option value="q1">Male</option>
                         <option value="q2">Female</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="address">Address</label><br>
-                    <textarea name="address" class="inputbox" id="address"
+                    <textarea name="address" class="inputbox " id="address"
                         placeholder="Enter your full address"></textarea>
                 </div>
                 <div class="form-group">
                     <label class="birthday" for="birthday">Birthday</label>
-                    <input type="date" class="inputbox" id="birthday">
+                    <input type="date" class="inputbox  " id="birthday">
                 </div>
                 <div class="form-group">
                     <label for="graduation">Education Qualification</label>
-                    <select name="graduation" class="inputbox" id="graduation">
-                        <option selected disabled>Select</option>
+                    <select name="graduation" class="inputbox " id="graduation">
+                        <option selected disabled value="">Select</option>
                         <option value="q1">Btech</option>
                         <option value="q2">BCA</option>
                         <option value="q3">BA</option>
@@ -50,20 +50,20 @@
                     </select>
                 </div>
                 <div>
-                    <label id="a" for="technology">Technology Known</label>
-                    <input type="checkbox" id="tech1" value="C">
+                    <label id="tech" for="technology">Technology Known</label>
+                    <input type="checkbox"  class="check" id="tech1" value="C">
                     <label for="tech1">C</label>
-                    <input type="checkbox" id="tech2" value="C++">
+                    <input type="checkbox" class="check" id="tech2" value="C++">
                     <label for="tech2">C++</label>
-                    <input type="checkbox" id="tech3" value="Java">
+                    <input type="checkbox" class="check" id="tech3" value="Java">
                     <label for="tech3">Java</label>
-                    <input type="checkbox" id="tech4" value="Javascript">
+                    <input type="checkbox" class="check" id="tech4" value="Javascript">
                     <label for="tech4">Javascript</label>
-                    <input type="checkbox" id="tech5" value="Python">
+                    <input type="checkbox" class="check" id="tech5" value="Python">
                     <label for="tech5">Python</label>
                 </div>
                 <div class="button">
-                    <input type="submit" value="Submit">
+                    <input type="submit" disabled class="submit-btn" value="Submit">
                     <input type="reset" value="Reset">
                 </div>
                 <div class="feedback"></div>
@@ -73,6 +73,8 @@
 
     </section>
     <script src="reg.js"></script>
+    <script src="/jquery.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
