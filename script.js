@@ -17,8 +17,8 @@ function validateFormFields() {
     //Check The NUmber of Empty Fields
     const lengthOfEmptyFields = forms.filter(e => e == "").length;
     if(lengthOfEmptyFields == 0) {
-        $('.submit-btn').removeAttr("disabled").css("backgroundColor", "#33d239a8");
+        $('.submit-btn').prop("disabled", false).css("backgroundColor", "#33d239a8");
     } else {
-        $('.submit-btn').removeAttr("disabled").css("backgroundColor", "#6bc56ea8");
+        $('.submit-btn').prop("disabled",true).css("backgroundColor", "#6bc56ea8");
     }
 }
