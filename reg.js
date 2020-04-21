@@ -2,7 +2,7 @@ const form = document.querySelector('.signup-form');
 const namePattern = /^[a-z A-Z]{6,20}$/;
 const addressPattern = /^[a-z A-Z 0-9 \-/]{15,50}$/;
 const emailPattern = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-let c = 0;
+//let c = 0;
 //const input = document.querySelector('input');
 
 
@@ -52,12 +52,7 @@ form.email.addEventListener('keyup', e => {
 });
 
 //Gender
-form.gender.addEventListener('input', e => {
-    if (gender.selectedIndex > 0) {
-        c++;
 
-    }
-});
 
 //Address
 
@@ -65,7 +60,7 @@ form.address.addEventListener('keyup', e => {
     if (addressPattern.test(e.target.value)) {
         form.address.setAttribute('class', 'success');
         c++;
-        alert(c);
+
     } else {
         form.address.setAttribute('class', 'error');
     }
@@ -112,7 +107,7 @@ form.email.addEventListener('keyup', e => {
         form.email.setAttribute('class', 'error');
     }
 });
-//submit button
+/*submit button
 function validation() {
     let name = document.getElementById('user').value;
-}
+}*/
